@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Aplicatie.ParintePage"
+             Title="ParintePage">
+    <StackLayout>
+        <Label Text="Nume:" />
+        <Entry x:Name="NumeEntry" />
+
+        <Label Text="Prenume:" />
+        <Entry x:Name="PrenumeEntry" />
+
+        <Label Text="Numar Telefon:" />
+        <Entry x:Name="NumarTelefonEntry" />
+
+        <Button Text="Salveaza" Clicked="Salveaza_Clicked" />
+        <Button Text="Sterge" Clicked="Sterge_Clicked" />
+    </StackLayout>
+</ContentPage>
